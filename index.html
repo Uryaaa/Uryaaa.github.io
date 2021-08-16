@@ -1,43 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Web | Portofolio</title>
+	<title>POS | Rest-API</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 </head>
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portofolio</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>   
-                </ul>
-            </nav>
-        </div>
-        <main class="content">
-              <section class="hero">
-                  <img src="online.png" alt="">
-              <div class="hero-content">
-                  <h1>Profesi</h1><br></h2>Junior Content Writer at Dicoding</h2><br><br>   
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt inventore perspiciatis  debitis doloribus ullam minima culpa voluptatem. Repellendus, option.</p>
-<a href="" class="action-btn">Profile Saya</a>
-              </div>
-                </section>
-        </div>
-        <div class="footer">
-            <footer>
-            <ul>
-                <li><img src="instagram.png" alt=""><p>Instagram</p></a></li>
-                <li><img src="facebook.png" alt=""><p>Facebook</p></a></li>
-                <li><img src="twitter.png" alt=""><p>Twitter</p></a></li>
-                <li><img src="telegram.png" alt=""><p>Telegram</p></a></li>
-            </ul>
-            </footer>
-        </div>
-    </div>    
+
+<body class="is-preload">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
+
+			<!-- Header -->
+			<header id="header">
+				<h1>POS REST-API</h1>
+				<p>Kusonime &nbsp;&bull;&nbsp; Drakor &nbsp;&bull;&nbsp; YoutubeDL</p>
+				<nav>
+					<ul>
+						<li><a href="/kusonime/api" class="icon brands fa-kickstarter"><span
+									class="label">Kusonime</span></a></li>
+						<li><a href="/drakor/api" class="icon brands fa-dyalog"><span class="label">Facebook</span></a>
+						</li>
+						<li><a href="/ytdl/api" class="icon brands fa-y-combinator"><span class="label">YTDL</span></a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; Perkumpulan Orang Santai . Design: <a href="http://html5up.net">HTML5
+						UP</a>.</span>
+			</footer>
+
+		</div>
+	</div>
+	<script>
+		window.onload = function () { document.body.classList.remove('is-preload'); }
+		window.ontouchmove = function () { return false; }
+		window.onorientationchange = function () { document.body.scrollTop = 0; }
+	</script>
 </body>
+
 </html>
